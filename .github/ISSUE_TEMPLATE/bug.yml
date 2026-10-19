@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in NotchDev doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. NotchDev is made by one person: I read every report, but I can't promise a reply to each one.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the panel
+        2. Go to the Servers tab
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: NotchDev version
+      description: Settings › General › Updates shows it.
+      placeholder: "0.6.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: "macOS 15.5 · MacBook Pro M3"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Optional. In NotchDev, Settings › General › Save diagnostics… creates a redacted report (no prompts, paths, keys or tokens). Drag the file here.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video
+      description: Optional, but they help a lot with anything visual.

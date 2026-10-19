@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & help
+    url: https://github.com/diemunoz/notchdev/discussions
+    about: Ask and share in Discussions — other users can help too.
+  - name: Website & download
+    url: https://notchdev.diegomp.dev
+    about: Features, pricing and the latest version.
